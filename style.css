@@ -1,17 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Noto+Sans+JP:wght@100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header {
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+header {
+    font-family: 'Anton CS', sans-serif;
 }
 
 main {
-
+    flex: 1 0 auto;
 }
 
 Footer {
 
 }
+
