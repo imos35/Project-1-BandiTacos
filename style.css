@@ -10,6 +10,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Nano Sans JP', sans-serif;
+    color: whitesmoke;
+    background-color: #000000;
 }
 
 header {
@@ -35,18 +38,16 @@ header a {
     text-decoration: none;
     color: whitesmoke;
     text-align: center;
+    padding: 0 10px 0 10px;
     
 }
 
-nav {
+.header-nav {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
     font-size: 1rem;
 
-}
-
-nav a {
-    padding: 0 10px 0 10px;
 }
 
 main {
@@ -56,15 +57,17 @@ main {
 }
 
 Footer {
-    background-color: lightblue;
+    background-color: black;
 }
+
+/* media queries */
 
 @media screen and (min-width: 768px) {
     
 }
 
 @media screen and (max-width: 346px) {
-    nav a {
+    header nav a {
         font-size: smaller;
     }
 
