@@ -20,7 +20,6 @@ header {
     background-color: #000000;
     position: fixed;
     width: 100%;
-    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,9 +41,9 @@ header a {
     
 }
 
-.header-nav {
+header > nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     font-size: 1rem;
 
@@ -58,6 +57,11 @@ main {
 
 Footer {
     background-color: black;
+}
+
+.footer-nav {
+    text-align: center;
+    padding: 0;
 }
 
 /* media queries */
