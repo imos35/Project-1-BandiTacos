@@ -13,7 +13,7 @@ body {
     font-family: 'Nano Sans JP', sans-serif;
     font-weight: 300;
     color: whitesmoke;
-    background-color: #000000;
+    background-color: #111111;
 }
 
 header {
@@ -53,15 +53,15 @@ header > nav {
 
 main {
     flex: 1 0 auto;
-    background-color: #111111;
     margin-top: 82px;
 }
+
 
 Footer {
     background-color: black;
     padding: 1em;
     text-align: center;
-    display: block;
+    z-index: 99;
 }
 
 footer > nav > a {
@@ -77,14 +77,10 @@ footer p {
     color:#4f4f4f;
 }
 
-#map-container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
-#map-container iframe {
+iframe {
     border: none;
+    width: 100%;
 
 }
 
