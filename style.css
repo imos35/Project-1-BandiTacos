@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Nano Sans JP', sans-serif;
+    font-weight: 300;
     color: whitesmoke;
     background-color: #000000;
 }
@@ -25,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 2px#3a3a3a;
+    z-index: 99;
 
 
 }
@@ -51,17 +53,48 @@ header > nav {
 
 main {
     flex: 1 0 auto;
-    background-color: lightgreen;
+    background-color: #111111;
     margin-top: 82px;
 }
 
 Footer {
     background-color: black;
+    padding: 1em;
+    text-align: center;
+    display: block;
 }
 
-.footer-nav {
+footer > nav > a {
+    padding: 0 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer p {
+    font-size: small;
+    margin-top: 10px;
+    color:#4f4f4f;
+}
+
+#map-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#map-container iframe {
+    border: none;
+
+}
+
+.mpt-font {
+    font-family: 'Anton SC', sans-serif;
+}
+
+.main-preview-text {
+    text-transform: uppercase;
     text-align: center;
-    padding: 0;
 }
 
 /* media queries */
