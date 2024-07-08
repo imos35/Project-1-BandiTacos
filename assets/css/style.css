@@ -78,8 +78,8 @@ Footer {
 }
 
 footer > nav > a {
-    padding: 0 10px;
-    font-size: 1em;
+    padding: 0 20px;
+    font-size: 2em;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -178,6 +178,11 @@ figure {
 
     #adress-img {
         width: 200px;
+    }
+
+    footer > nav > a {
+        padding: 0 20px;
+        font-size: 1em;
     }
 
 }
