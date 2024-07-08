@@ -102,11 +102,34 @@ iframe {
 }
 
 .main-preview-text {
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
     padding: 10px;
 }
 
+/* contact page css */
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px 0px;
+}
+
+#about-us h2 {
+    padding: 5px 0px;
+}
+
+#about-us p {
+    margin-bottom: 20px;
+}
+
+table td {
+    padding-bottom: 2px;
+}
+
+#contact-table {
+    text-decoration: underline;
+}
 
 /* media queries */
 
