@@ -56,6 +56,38 @@ main {
     margin-top: 82px;
 }
 
+.link-hover:hover {
+    text-decoration: underline;
+}
+
+/* Text styles */
+
+.mpt-font {
+    font-family: 'Anton SC', sans-serif;
+}
+
+.main-preview-text {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#food-description {
+    margin: 15px 10px;
+
+}
+
+.line-break {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-break hr {
+    color: #3a3a3a3a;
+    width: 90vw;
+}
+
 #food-preview {
     width: 100vw;
     overflow: scroll;
@@ -97,21 +129,7 @@ iframe {
 
 }
 
-.link-hover:hover {
-    text-decoration: underline;
-}
 
-/* Text styles */
-
-.mpt-font {
-    font-family: 'Anton SC', sans-serif;
-}
-
-.main-preview-text {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px;
-}
 
 /* contact page css */
 
