@@ -141,6 +141,10 @@ figure {
     text-decoration: underline;
 }
 
+#contact-table a {
+    color: whitesmoke;
+}
+
 #adress-img {
     width: 300px;
     margin-top: 10px;
