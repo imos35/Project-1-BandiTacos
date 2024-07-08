@@ -56,6 +56,19 @@ main {
     margin-top: 82px;
 }
 
+#food-preview {
+    width: 100vw;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#food-preview img {
+    width: 100%;
+    align-self: center;
+}
+
 
 Footer {
     background-color: black;
@@ -91,7 +104,9 @@ iframe {
 .main-preview-text {
     text-transform: uppercase;
     text-align: center;
+    padding: 10px;
 }
+
 
 /* media queries */
 
