@@ -51,7 +51,7 @@ header > nav {
 
 }
 
-#bar-photo {
+.bar-photo {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -71,13 +71,13 @@ h2, h3, .anton-font {
     font-family: 'Anton SC', sans-serif;
 }
 
-#italic-price {
+.italic-price {
     font-style: italic;
     color: #4a4a4a;
     margin: 10px;
 }
 
-#ingredients {
+.ingredients {
     font-style: italic;
     color: #9a9a9a;
     margin: 5px;
@@ -92,11 +92,11 @@ h2, h3, .anton-font {
     text-align: center;
 }
 
-#drinks {
+.drinks {
     padding: 0px 40px 0px;
 }
 
-#divdrink {
+.divdrink {
     display: flex;
     align-items: center;
 }
@@ -114,7 +114,7 @@ li {
 
 }
 
-#food-description {
+.food-description {
     margin: 15px 10px;
 
 }
@@ -131,7 +131,7 @@ li {
     width: 90vw;
 }
 
-#food-preview {
+.food-preview {
     width: 100vw;
     overflow: scroll;
     display: flex;
@@ -139,7 +139,7 @@ li {
     justify-content: space-between;
 }
 
-#food-preview img {
+.food-preview img {
     width: 100%;
     align-self: center;
 }
@@ -176,31 +176,31 @@ iframe {
 
 /* contact page css */
 
-#about-us {
+.about-us {
     display: flex;
     flex-direction: column;
     margin: 10px 15px 0px;
 }
 
-#about-us h2 {
+.about-us h2 {
     padding: 5px 0px;
 }
 
-#about-us p {
+.about-us p {
     margin-bottom: 20px;
 }
 
-#contact {
+.contact {
     display: flex;
     flex-direction: column;
     margin: 10px 15px 0px;
 }
 
-#contact h2 {
+.contact h2 {
     padding: 5px 0px;
 }
 
-#contact p {
+.contact p {
     margin-bottom: 20px;
 }
 
@@ -212,27 +212,27 @@ figure {
     margin-bottom: 5px;
 }
 
-#contact-table {
+.contact-table {
     text-decoration: underline;
 }
 
-#contact-table a {
+.contact-table a {
     color: whitesmoke;
 }
 
-#adress-img {
+.adress-img {
     width: 300px;
     margin-top: 10px;
 }
 
-#wiki-ragsved {
+.wiki-ragsved {
     text-decoration: none;
     color: whitesmoke;
     opacity: 50%;
     font-size: 0.8rem;
 }
 
-#wiki-ragsved:hover {
+.wiki-ragsved:hover {
     text-decoration: underline;
 }
 
