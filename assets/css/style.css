@@ -190,6 +190,20 @@ iframe {
     margin-bottom: 20px;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px 0px;
+}
+
+#contact h2 {
+    padding: 5px 0px;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
 table td {
     padding-bottom: 2px;
 }
