@@ -62,8 +62,20 @@ main {
 
 /* Text styles */
 
-.mpt-font {
+h2, h3, .anton-font {
     font-family: 'Anton SC', sans-serif;
+}
+
+#italic-price {
+    font-style: italic;
+    color: #4a4a4a;
+    margin: 10px;
+}
+
+#ingredients {
+    font-style: italic;
+    color: #9a9a9a;
+    margin: 5px;
 }
 
 .main-preview-text {
@@ -76,16 +88,35 @@ main {
 }
 
 ul {
-    padding: 40px;
+    padding: 30px 40px 0px;
 }
 
 li {
     margin-bottom: 10px;
 }
 
-#bold-text {
+.drinks {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.drinks ul {
+    flex: 1;
+    max-width: 10%;
+
+}
+
+.drinks ul li {
+
+}
+
+
+
+
+
+
+.bold-text {
     font-weight: bold;
-    font-family: 'Anton SC', sans-serif;
 
 }
 
@@ -98,6 +129,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .line-break hr {
