@@ -23,20 +23,25 @@
 </head>
 
 <body>
+    <!--Header with navigation-->
     <header>
 
-        <a href="index.html">
+        <a href="index.html" aria-label="BandiTacos Home">
             <h1>BandiTacos</h1>
         </a>
-        <nav>
+        <nav aria-label="Main navigation">
             <a class="link-hover" href="index.html" aria-label="Home">Home</a>
             <a class="link-hover" href="food.html" aria-label="Food and Drinks">Food & Drinks</a>
             <a class="link-hover" href="contact.html" aria-label="Contact and About Us">Contact & About Us</a>
         </nav>
+        <!--Header with navigation end-->
 
     </header>
     <main>
-        <section>
+
+        <!--About us section-->
+
+        <section class="about-us-center">
             <div class="about-us">
                 <h2>About Us</h2>
                 <p>
@@ -59,40 +64,48 @@
                 </p>
             </div>
         </section>
+        <!--About us section end-->
 
         <div class="line-break">
             <hr>
         </div>
 
+        <!--Contact section-->
         <section>
             <div class="contact">
-                <h2>Contact</h2>
-                <table>
-                    <tr>
-                        <td>Phone:</td>
-                        <td class="contact-table"><a href="tel:+12345678910">+12345678910</a></td>
-                    </tr>
-                    <tr>
-                        <td>Email:</td>
-                        <td class="contact-table"><a href="mailto:bandi@tacos.com">bandi@tacos.com</a></td>
-                    </tr>
-                    <tr>
-                        <td>Adress:</td>
-                        <td class="contact-table"><a href="https://bit.ly/4cx3HX6" target="_blank"
-                                rel="noopener noreferrer">Rågsved Centrum 15, 12464 Sweden</a></td>
-                    </tr>
-                </table>
+                <div class="contact-table">
+                    <h2>Contact</h2>
+                    <table>
+                        <tr>
+                            <td>Phone:</td>
+                            <td class="contact-table"><a href="tel:+12345678910">+12345678910</a></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td class="contact-table"><a href="mailto:bandi@tacos.com">bandi@tacos.com</a></td>
+                        </tr>
+                        <tr>
+                            <td>Adress:</td>
+                            <td class="contact-table"><a href="https://bit.ly/4cx3HX6" target="_blank"
+                                    rel="noopener noreferrer">Rågsved Centrum 15, 12464 Sweden</a></td>
+                        </tr>
+                    </table>
+                </div>
                 <figure>
                     <img class="adress-img" src="assets/img/ragsvedcentrum.jpg" alt="Rågsved Centrum">
-                    <figcaption><a class="wiki-ragsved" target="_blank"
-                            href="https://sv.wikipedia.org/wiki/Rågsved" aria-label="'Rågsved Centrum' from Wikipedia (opens in a new tab)">'Rågsved Centrum' from Wikipedia</a>
+                    <figcaption><a class="wiki-ragsved" target="_blank" href="https://sv.wikipedia.org/wiki/Rågsved"
+                            aria-label="'Rågsved Centrum' from Wikipedia (opens in a new tab)">'Rågsved Centrum' from
+                            Wikipedia</a>
                     </figcaption>
                 </figure>
 
             </div>
         </section>
+        <!--Contact section end-->
+
     </main>
 
+    <!--Footer with social links-->
     <div>
 
         <footer>
@@ -114,6 +127,9 @@
             <p>Copyright © BandiTacos 2024</p>
         </footer>
     </div>
+    <!--Footer with social links end-->
+
+    <!--Social media icons (Fontawesome)-->
     <script src="https://kit.fontawesome.com/141f4c0f57.js" crossorigin="anonymous"></script>
 </body>
 

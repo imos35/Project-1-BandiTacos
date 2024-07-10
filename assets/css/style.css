@@ -16,6 +16,8 @@ body {
     background-color: #111111;
 }
 
+/* Header style */
+
 header {
     font-family: 'Anton SC', sans-serif;
     background-color: #000000;
@@ -51,18 +53,13 @@ header > nav {
 
 }
 
-.bar-photo {
-    width: 100%;
-    margin-bottom: 20px;
+.link-hover:hover {
+    text-decoration: underline;
 }
 
 main {
     flex: 1 0 auto;
     margin-top: 82px;
-}
-
-.link-hover:hover {
-    text-decoration: underline;
 }
 
 /* Text styles */
@@ -92,15 +89,6 @@ h2, h3, .anton-font {
     text-align: center;
 }
 
-.drinks {
-    padding: 0px 40px 0px;
-}
-
-.divdrink {
-    display: flex;
-    align-items: center;
-}
-
 ul {
     padding: 30px 40px 0px;
 }
@@ -114,22 +102,7 @@ li {
 
 }
 
-.food-description {
-    margin: 15px 10px;
-
-}
-
-.line-break {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.line-break hr {
-    color: #3a3a3a3a;
-    width: 90vw;
-}
+/*Main page style*/
 
 .food-preview {
     overflow: scroll;
@@ -143,6 +116,44 @@ li {
     align-self: center;
 }
 
+/* Used in main & food page */
+
+.food-description {
+    margin: 15px 10px;
+
+}
+
+/* Food page style */
+
+.bar-photo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.drinks {
+    padding: 0px 40px 10px;
+}
+
+.divdrink {
+    display: flex;
+    align-items: center;
+}
+
+/* Line break */
+
+.line-break {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.line-break hr {
+    color: #3a3a3a3a;
+    width: 90vw;
+}
+
+/* Footer style */
 
 Footer {
     background-color: black;
@@ -173,7 +184,7 @@ iframe {
 
 
 
-/* contact page css */
+/* Contact page style */
 
 .about-us {
     display: flex;
@@ -237,15 +248,124 @@ figure {
 
 /* media queries */
 
+/* Larger device style */
+
 @media screen and (min-width: 769px) {
 
+    /* Home page */
+
+    
+
+    /* Food page */
+
+    p {
+        line-height: 150%;
+    }
+
+    .bar-photo {
+        width: 60%;
+        height: 60%;
+        margin-top: 50px;
+        box-shadow: 0 0 2px 2px rgba( 0, 0, 0, 0.1);
+    }
+
+    #bar-photo-taco {
+        height: 350px;
+        object-fit: cover;
+        object-position: center 70%;
+    }
+    
+    #bar-photo-drink {
+        height: 140px;
+        object-fit: cover;
+        object-position: center 70%;
+        margin: 60px 0px 40px;
+    }
+    
+    .how-does {
+        width: 450px;
+        text-align: center;
+    }
+
+    .how-does p {
+        text-align: left;
+    }
+
+    .how-does-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px 0px 50px 50px;
+    }
+
+    .font-size-big {
+        font-size: large;
+    }
+
+    .not-crafty {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+    }
+    
+    #no-mood {
+        width: 40%;
+    }
+
+    .drink-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;   
+    }
+
+    .margin-left {
+        margin-left: 50px;
+    }
+
+
+    /* Contact page */
+    
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-table {
+        padding: 8px;
+        margin-top: 40px;
+    }
+
+    .about-us-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us {
+        text-align: center;
+        width: 75%;
+
+    }
+
+    .about-us  p {
+        padding: 5px 0;
+    }
+
+
 }
+
+/* Mobile device style */
 
 @media screen and (max-width: 768px) {
     main {
         margin-top: 100px;
     }
 }
+
+/* Mobile S device style*/
 
 @media screen and (max-width: 346px) {
     header nav a {

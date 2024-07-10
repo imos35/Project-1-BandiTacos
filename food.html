@@ -23,66 +23,88 @@
 </head>
 
 <body>
+    <!--Header with navigation-->
     <header>
 
         <a href="index.html" aria-label="BandiTacos Home">
             <h1>BandiTacos</h1>
         </a>
         <nav aria-label="Main navigation">
-            <a class="link-hover" href="index.html" aria-label="Home page">Home</a>
-            <a class="link-hover" href="food.html" aria-label="Food and Drinks page">Food & Drinks</a>
-            <a class="link-hover" href="contact.html" aria-label="Contact and About Us page">Contact & About Us</a>
+            <a class="link-hover" href="index.html" aria-label="Home">Home</a>
+            <a class="link-hover" href="food.html" aria-label="Food and Drinks">Food & Drinks</a>
+            <a class="link-hover" href="contact.html" aria-label="Contact and About Us">Contact & About Us</a>
         </nav>
+        <!--Header with navigation end-->
 
     </header>
     <main>
-        <div>
-            <h2 class="main-preview-text">How does it work?</h2>
+        <section class="how-does-section">
+            <!--How does it work-->
+            <div class="how-does font-size-big">
+                <h2 class="main-preview-text">How does it work?</h2>
 
-            <ul>
-                <li>
-                    <p><span class="bold-text anton-font">Build Your Own Taco:</span> Just like a salad bar, you get
-                    to choose
-                    from a
-                    wide variety of fresh
-                    ingredients.
-                    From seasoned meats and vibrant veggies to delicious sauces and crunchy toppings, the possibilities
-                    are
-                    endless.</p>
-                </li>
-                <li>
-                    <p><span class="bold-text anton-font">Pay by Weight:</span> Once you've crafted your perfect taco,
-                        simply weigh
-                        your
-                        creation and pay based on the
-                        weight. This way, you can enjoy as much or as little as you like, ensuring you always get great
-                        value
-                        for your meal.</p>
-                </li>
-            </ul>
-            <p class="italic-price">The price is $2 per hectogram (hg).</p>
-        </div>
-        <img class="bar-photo" src="assets/img/1food&drinks.jpg" alt="woman eating tacos">
+                <ul>
+                    <li>
+                        <p><span class="bold-text anton-font">Build Your Own Taco:</span> Just like a salad bar, you get
+                            to choose
+                            from a
+                            wide variety of fresh
+                            ingredients.
+                            From seasoned meats and vibrant veggies to delicious sauces and crunchy toppings, the
+                            possibilities
+                            are
+                            endless.</p>
+                    </li>
+                    <li>
+                        <p><span class="bold-text anton-font">Pay by Weight:</span> Once you've crafted your perfect
+                            taco,
+                            simply weigh
+                            your
+                            creation and pay based on the
+                            weight. This way, you can enjoy as much or as little as you like, ensuring you always get
+                            great
+                            value
+                            for your meal.</p>
+                    </li>
+                </ul>
+                <p class="italic-price">$2 per hectogram (hg).</p>
+            </div>
+
+            <img id="bar-photo-taco" class="bar-photo" src="assets/img/1food&drinks.jpg" alt="woman eating tacos">
+            <!--How does it work end-->
+
+        </section>
         <div class="line-break">
             <hr>
         </div>
-        <section>
-            <div>
+
+        <!--Not so crafty and menus section-->
+
+        <section class="font-size-big">
+            <div class="not-crafty">
                 <h2 class="main-preview-text">Not so crafty?</h2>
-                <p class="food-description">Not in the mood to customize your tacos? No problem! At BandiTacos, we offer a
+                <p id="no-mood" class="food-description">Not in the mood to customize your tacos? No problem! At BandiTacos, we offer
+                    a
                     selection of pre-made tacos crafted with fresh ingredients. <br> <span class="bold-text">Check out
                         our menu below!</span></p>
             </div>
-            <div>
+
+            <!--Soft-tacos menu-->
+
+            <div class="margin-left">
                 <h3 class="main-preview-text">Soft-Tacos</h3>
                 <p class="italic-price">Customize your tacos with a protein of your choice.</p>
-                <div class="line-break">
-                    <hr>
-                </div>
+            </div>
+
+            <div class="line-break">
+                <hr>
+            </div>
+            <div class="margin-left">
                 <ul>
                     <li>
                         <span class="bold-text anton-font">Outlaw's Choice</span>
-                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, cheddar cheese, and a zesty chipotle mayo.
+                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, cheddar cheese, and a zesty chipotle
+                            mayo.
                         </p>
 
                     </li>
@@ -94,7 +116,8 @@
                     </li>
                     <li>
                         <span class="bold-text anton-font">Desperado's Delight</span>
-                        <p class="ingredients"> - Sautéed bell peppers and onions, black beans, fresh avocado slices, and a
+                        <p class="ingredients"> - Sautéed bell peppers and onions, black beans, fresh avocado slices,
+                            and a
                             creamy cilantro dressing.</p>
 
                     </li>
@@ -103,19 +126,24 @@
             <div class="line-break">
                 <hr>
             </div>
-            <div>
-                <h3 class="main-preview-text">Hard Shell-Tacos</h3>
+
+            <!--Hard-shell Tacos menu-->
+
+            <div class="margin-left">
+                <h3 class="main-preview-text">Hard-Shell Tacos</h3>
                 <p class="italic-price">Customize your tacos with a protein of your choice.</p>
                 <ul>
                     <li>
                         <span class="bold-text anton-font">Outlaw's Crunch</span>
-                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, cheddar cheese, and a zesty chipotle mayo.
+                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, cheddar cheese, and a zesty chipotle
+                            mayo.
                         </p>
 
                     </li>
                     <li>
                         <span class="bold-text anton-font">Bandit's Blaze</span>
-                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, jalapeno jack cheese, and a fiery habanero
+                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, jalapeno jack cheese, and a fiery
+                            habanero
                             salsa.</p>
 
                     </li>
@@ -131,13 +159,17 @@
             <div class="line-break">
                 <hr>
             </div>
-            <div>
+
+            <!--Burritos menu-->
+
+            <div class="margin-left">
                 <h3 class="main-preview-text">Burritos</h3>
                 <p class="italic-price">Customize your burrito with a protein of your choice.</p>
                 <ul>
                     <li>
                         <span class="bold-text anton-font">Outlaw's Wrap</span>
-                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, cheddar cheese, and a zesty chipotle mayo.
+                        <p class="ingredients"> - Crisp lettuce, diced tomatoes, cheddar cheese, and a zesty chipotle
+                            mayo.
                         </p>
 
                     </li>
@@ -150,7 +182,8 @@
                     </li>
                     <li>
                         <span class="bold-text anton-font">Verde Fiesta</span>
-                        <p class="ingredients"> - Black beans, roasted red peppers, avocado slices, and a tangy salsa verde
+                        <p class="ingredients"> - Black beans, roasted red peppers, avocado slices, and a tangy salsa
+                            verde
                             wrapped in a soft tortilla.</p>
 
                     </li>
@@ -158,13 +191,20 @@
                 </ul>
             </div>
         </section>
+
+        <!--Not so crafty and menus section end-->
+
         <div class="line-break">
             <hr>
         </div>
-        <section>
-            <div>
+
+        <!--"Thirsty?" and drink menu section-->
+
+        <section class="drink-section">
+            <div class="margin-left">
                 <h2 class="main-preview-text">Thirsty?</h2>
                 <div class="divdrink">
+                    <!--Beer menu-->
                     <div>
                         <h3 class="main-preview-text">Beer</h3>
                         <ul class="drinks">
@@ -173,6 +213,7 @@
                             <li>Heineken</li>
                         </ul>
                     </div>
+                    <!--Wine menu-->
                     <div>
                         <h3 class="main-preview-text">Wine</h3>
                         <ul class="drinks">
@@ -181,7 +222,7 @@
                             <li>Rose</li>
                         </ul>
                     </div>
-
+                    <!--Soda menu-->
                     <div>
                         <h3 class="main-preview-text">Soda</h3>
                         <ul class="drinks">
@@ -193,9 +234,17 @@
 
                 </div>
             </div>
+
+            <img id="bar-photo-drink" class="bar-photo" src="assets/img/2food&drinks.jpg" alt="Bar with someone making a cocktail.">
+
         </section>
-        <img class="bar-photo" src="assets/img/2food&drinks.jpg" alt="Bar with someone making a cocktail.">
+
+
+        <!--"Thirsty?" and drink menu section end-->
+
     </main>
+
+    <!--Footer with social links-->
 
     <div>
 
@@ -218,6 +267,10 @@
             <p>Copyright © BandiTacos 2024</p>
         </footer>
     </div>
+
+    <!--Footer with social links end-->
+
+    <!--Social media icons (Fontawesome)-->
     <script src="https://kit.fontawesome.com/141f4c0f57.js" crossorigin="anonymous"></script>
 </body>
 
