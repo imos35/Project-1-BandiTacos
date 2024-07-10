@@ -108,12 +108,11 @@ li {
     overflow: scroll;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .food-preview img {
     width: 100%;
-    align-self: center;
+
 }
 
 /* Used in main & food page */
@@ -254,7 +253,17 @@ figure {
 
     /* Home page */
 
-    
+    .food-preview {
+        display: flex;
+        justify-content: space-between;
+        overflow: visible;
+        padding: 40px;
+    }
+
+    .food-preview img {
+        align-items: center;
+        width: 300px;
+    }
 
     /* Food page */
 
