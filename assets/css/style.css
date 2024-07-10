@@ -251,6 +251,10 @@ figure {
 
 @media screen and (min-width: 769px) {
 
+    h2, h3, .anton-font {
+        letter-spacing: 2px;
+    }
+
     /* Home page */
 
     .food-preview {
