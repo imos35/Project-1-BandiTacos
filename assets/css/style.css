@@ -255,14 +255,17 @@ figure {
 
     .food-preview {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: space-evenly;
         overflow: visible;
-        padding: 40px;
     }
 
     .food-preview img {
-        align-items: center;
         width: 300px;
+    }
+
+    .food-description {
+        text-align: center;
     }
 
     /* Food page */
@@ -316,12 +319,11 @@ figure {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
 
     }
     
-    #no-mood {
-        width: 40%;
+    .p-width {
+        width: 50%;
     }
 
     .drink-section {
