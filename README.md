@@ -25,7 +25,7 @@ Below is mockup screenshots of 'BandiTacos' on different devices created using t
 
 - __Home page food & bar preview__
 
-  - Preview of what some of the food and drinks at the resturant has to offer.
+  - Preview images displaying food and drinks at the resturant.
   - Lets user know what the resturants food & bar looks like and helps them decide whether or not they might want to visit the resturant or look through more menus. Added text to explain the resturants athmosphere and gimmick.
 
 | ![screenshot](documentation/screenshots/foodpreviewscreenshot.png) |
